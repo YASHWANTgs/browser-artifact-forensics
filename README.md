@@ -57,10 +57,6 @@ This digital forensics project aligns with the following MITRE ATT&CK techniques
    - This reflects how adversaries collect data from an endpoint post-compromise.
                                         |
 
-# Tags
-
-`#DigitalForensics` `#BrowserArtifacts` `#NirSoft` `#SOC` `#CyberSecurityProjects` `#CSVAnalysis` `#WindowsForensics`
-
 # Author
 
 - **Name**: Yashwant G.S.
