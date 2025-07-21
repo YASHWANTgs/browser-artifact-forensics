@@ -60,5 +60,5 @@ This digital forensics project aligns with the following MITRE ATT&CK techniques
 # Author
 
 - **Name**: Yashwant G.S.
-- **Security+ Certified | MSc Cybersecurity**
+- **Comptia Security+ Certified | MSc Cybersecurity**
 
