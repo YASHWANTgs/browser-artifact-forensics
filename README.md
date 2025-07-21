@@ -31,11 +31,10 @@ This project focuses on digital forensics of web browser activity. Using **NirSo
 
 # Screenshots
 
-All screenshots of evidence extraction and analysis are located in the `screenshots/` folder.
-
+All screenshots of evidence extraction and analysis are available
 # Forensic Evidence
 
-Raw output exported as `.CSV` from NirSoft tool is available in the `evidence/` folder:
+Raw output exported as `.CSV` from NirSoft tool is available .
 - **Browser forensics yashwant.csv**
 
 # Use Case Scenario
