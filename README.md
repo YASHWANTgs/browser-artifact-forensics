@@ -1,4 +1,4 @@
-# browser-artifact-forensics
+# Browser-artifact-forensics
 Digital Forensics project analyzing browser artifacts using Nirsoft BrowsingHistoryView
 # Browser Artifact Forensics using NirSoft (NirSoft + CSV Analysis)
 
@@ -47,7 +47,7 @@ Imagine a SOC analyst or incident responder needs to verify user activity relate
 
 `#DigitalForensics` `#BrowserArtifacts` `#NirSoft` `#SOC` `#CyberSecurityProjects` `#CSVAnalysis` `#WindowsForensics`
 
-## Author
+# Author
 
 - **Name**: Yashwant G.S.
 - **Security+ Certified | MSc Cybersecurity**
