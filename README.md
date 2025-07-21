@@ -42,6 +42,21 @@ Raw output exported as `.CSV` from NirSoft tool is available in the `evidence/` 
 
 Imagine a SOC analyst or incident responder needs to verify user activity related to a phishing investigation. This project simulates such an extraction and presents the raw data for timeline verification.
 
+# MITRE ATT&CK Mapping
+
+This digital forensics project aligns with the following MITRE ATT&CK techniques:
+
+1. T1217 - Browser Information Discovery
+   - The project uses NirSoft BrowsingHistoryView to extract browser history, visited URLs, and timestamps.
+   - This mimics how threat actors enumerate browser artifacts during reconnaissance or data collection.
+
+2. T1083 - File and Directory Discovery
+   - If the forensic tool accesses paths like AppData or user browser cache locations, it involves discovering sensitive file locations.
+
+3. T1005 - Data from Local System
+   - Extracted browser data such as visited sites, cookies, and download history can represent locally stored user data.
+   - This reflects how adversaries collect data from an endpoint post-compromise.
+                                        |
 
 # Tags
 
