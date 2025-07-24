@@ -1,64 +1,62 @@
 # Browser-artifact-forensics
-Digital Forensics project analyzing browser artifacts using Nirsoft BrowsingHistoryView
-# Browser Artifact Forensics using NirSoft (NirSoft + CSV Analysis)
+Digital forensics project that looks into browser artefacts using Nirsoft BrowsingHistoryView.
+# Analysis of Browser Artifacts Using NirSoft (Combining NirSoft with CSV Analysis)
 
-This project focuses on digital forensics of web browser activity. Using **NirSoft BrowsingHistoryView**, I extracted, analyzed, and visualized browser artifacts to simulate a real-world investigation scenario — showcasing timeline reconstruction and user behavior analysis.
+The study focuses on digital forensics for activities performed using web browsers. With NirSoft BrowsingHistoryView, the researchers gathered, analyzed, and graphically represented data to simulate an investigative setting—illustrating the process of reconstructing timelines in addition to the analysis of user actions.
 
-# Tools Used
+## Equipment Used
 
--  NirSoft **BrowsingHistoryView**
--  Windows (data extraction)
--  CSV Viewer / Spreadsheet for analysis
--  Screenshots for documentation
+
+- BrowsingHistoryView by NirSoft
+- Data extraction through Windows
+- An analysis tool for CSV files and spreadsheets.
+- Photos taken for archiving purposes.
 
 # Project Objectives
 
 - Simulate real-world forensic analysis of browser artifacts
-- Extract evidence from browser history (Chrome, Firefox, Edge)
-- Identify key indicators like:
-  - Visited domains
-  - Timestamps
-  - Browsing patterns
-- Reconstruct timeline of user behavior
+- Get data from web browsers' browsing histories (Chrome, Firefox, Edge).
+- Determine key measures that include:
+- Recognized domains
+- Timestamps
+- Reading patterns
+- Reconstruct Chronological Order of User Actions.
 
-# Skills Demonstrated
+# Demonstrated Competencies
 
 - Digital forensics fundamentals
 - Timeline reconstruction
-- Evidence extraction & preservation
+- Gathering and saving evidence
 - CSV-based log analysis
 - Report documentation
 
 # Screenshots
 
-All screenshots of evidence extraction and analysis are available
+Screenshots related to extraction and analysis of evidence are all available.
 # Forensic Evidence
 
-Raw output exported as `.CSV` from NirSoft tool is available .
-- **Browser forensics yashwant.csv**
+The raw output, produced by the NirSoft tool in .CSV form, is available.
+- Browser forensics yashwant.csv
 
-# Use Case Scenario
+# Application Case Example
 
 Imagine a SOC analyst or incident responder needs to verify user activity related to a phishing investigation. This project simulates such an extraction and presents the raw data for timeline verification.
 
 # MITRE ATT&CK Mapping
 
-This digital forensics project aligns with the following MITRE ATT&CK techniques:
+Each of these digital forensic operations maps to the following MITRE ATT&CK tactics:
 
-1. T1217 - Browser Information Discovery
-   - The project uses NirSoft BrowsingHistoryView to extract browser history, visited URLs, and timestamps.
-   - This mimics how threat actors enumerate browser artifacts during reconnaissance or data collection.
+1. T1217 -  Browser Information Discovery
+- The tool utilizes NirSoft BrowsingHistoryView to fetch browsing history, recorded URLs, and their timestamps.
+This mimics the way threat actors collect browser artifacts in the course of reconnaissance or data collection.
 
 2. T1083 - File and Directory Discovery
-   - If the forensic tool accesses paths like AppData or user browser cache locations, it involves discovering sensitive file locations.
 
-3. T1005 - Data from Local System
-   - Extracted browser data such as visited sites, cookies, and download history can represent locally stored user data.
-   - This reflects how adversaries collect data from an endpoint post-compromise.
-                                        |
+Forensic software interactions with directory locations like AppData or user web cache directory locations require identification of locations with sensitive data.
 
-# Author
+3. T1005 - Data from Local System 
 
-- **Name**: Yashwant G.S.
-- **Comptia Security+ Certified | MSc Cybersecurity**
+Data obtained from web browsers, visited sites, cookies, and downloads might collectively provide a type of locally kept user data. - This reflects how adversaries collect data from an endpoint post-compromise. 
 
+#Author
+: Yashwant G.S - Comptia Security+ Certified | MSc Cybersecurity
